@@ -1,0 +1,46 @@
+#logo a img{
+
+    height: 80px;
+
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    }
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   opacity: 0.3;
+}
+
+#nav-links a{
+    padding: 12px 12px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+    }
+#nav-links a:hover{
+    color: black;
+    background-color: white;
+    
+    }
+
+    #home::before{
+        background: url(../assets/back.jpg) no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+       opacity: 0.89;
+    }

@@ -1,0 +1,141 @@
+#logo a img{
+    height: 80px;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    }
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   opacity: 0.3;
+}
+
+#nav-links a{
+    padding: 12px 12px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+    }
+#nav-links a:hover{
+    color: black;
+    background-color: white;
+    
+    }
+
+
+ #head::before{
+            
+    content: "";
+    background: url(../assets/25.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 45%;
+    width: 100%;
+    z-index: -1;
+   opacity: 0.89;
+        }
+
+        #navbar span{
+            color: white;
+        }
+     
+.info{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   color: white;
+   position: relative;
+}
+
+.info::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 29%;
+    z-index: -1;
+   opacity: 0.3;
+}
+
+.info h1{
+    font-size: 1.8rem;
+    padding-bottom: 25px;
+}
+
+
+/* #foot::before{
+            
+    content: "";
+    background: url(../assets/head.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 19%;
+    width: 100%;
+    z-index: -1;
+   opacity: 0.89;
+        } */
+        #foot span{
+            color:white;
+        }
+
+
+        #foots{
+            display: flex;
+            align-items: center;
+            position: relative;
+            }
+
+#foots::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   opacity: 0.7;
+}
+    
+#foot a{
+    color: white;
+}
+#foot p{
+    color: white;
+}
+
+
+/* this is my whatsapp api style */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+/* this is my whatsapp api style */
+
+
